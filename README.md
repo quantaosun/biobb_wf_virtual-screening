@@ -4,6 +4,18 @@
 
 **Including three Jupyter Notebooks using three different binding site predictors (PDBe REST API, Cluster90 binding site and Fpocket).**
 
+############################################################################################################
+
+It is definately a very reliable workflow. Only adding the follwing SMILES block could allow to "upload" a 
+customerized small molecule. Should this block used, the default biobb ligand fetching block should be turned 
+off
+```
+Smiles = "c1ccccc1" #@param {type:"string"}
+!obabel -:"{Smiles}" -osdf -O smiles.sdf --gen3d
+```
+############################################################################################################
+
+
 ***
 
 This tutorials aim to illustrate the process of **protein-ligand docking**, step by step, using the **BioExcel Building Blocks library (biobb)**. The particular examples used are based on the **Mitogen-activated protein kinase 14** (p38-α) protein (PDB code [3HEC](https://www.rcsb.org/structure/3HEC)), a well-known **Protein Kinase enzyme**,
