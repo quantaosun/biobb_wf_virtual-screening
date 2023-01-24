@@ -5,6 +5,8 @@
 **Including three Jupyter Notebooks using three different binding site predictors (PDBe REST API, Cluster90 binding site and Fpocket).**
 
 ############################################################################################################
+# Comments added only to this fork, not exist in original repo
+############################################################################################################
 
 It is definately a very reliable workflow. Only adding the follwing SMILES block could allow to "upload" a 
 customerized small molecule. Should this block used, the default biobb ligand fetching block should be turned 
