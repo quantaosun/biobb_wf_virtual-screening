@@ -15,6 +15,8 @@ off
 Smiles = "c1ccccc1" #@param {type:"string"}
 !obabel -:"{Smiles}" -osdf -O smiles.sdf --gen3d
 ```
+
+More workflows by Bioexcel https://mmb.irbbarcelona.org/biobb/workflows 
 ############################################################################################################
 
 
